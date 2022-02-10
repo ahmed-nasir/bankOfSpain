@@ -9,6 +9,7 @@ document.getElementById('login-btn').addEventListener('click', function () {
     const userPass = passFeild.value;
     // console.log(userPass);
 
+    // user validation
     if (userEmail == 'nasir' && userPass == '123') {
         window.location.href = 'banking.html'
     }
