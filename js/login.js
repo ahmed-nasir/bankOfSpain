@@ -13,4 +13,4 @@ document.getElementById('login-btn').addEventListener('click', function () {
     if (userEmail == 'nasir' && userPass == '123') {
         window.location.href = 'banking.html'
     }
-}) 
+});
